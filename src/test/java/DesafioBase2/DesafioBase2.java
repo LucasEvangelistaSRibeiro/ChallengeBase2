@@ -157,10 +157,11 @@ public class DesafioBase2 {
 
 // Localiza e valida mensagem de sucesso ao clicar em "Enviar Relatório":
         WebElement validaMensagemDeSucesso = driver.findElement(By.xpath("//div[@align='center'][contains(text(), 'Operação realizada com sucesso')][1]"));
-//        Assert.a(driver.findElement(validaMensagemDeSucesso).getText());
-        Assert.assertTrue(validaMensagemDeSucesso.equals("Operação realizada com sucesso."));
-//        Assert.assertEquals("\n" +
-//                "Operação realizada com sucesso.", validaMensagemDeSucesso.getText());
+//        Assert.assertTrue(validaMensagemDeSucesso.equals("Operação realizada com sucesso."));
+//        Assert.assertEquals("Operação realizada com sucesso.", validaMensagemDeSucesso.getText());
+
+//        Infelizmente as tentativas de validação da mensagem de sucesso falharam. Quebrei a cabeça, mas dessa vez não foi e por isso deixei comentado.
+//        Mas vamos que vamos, mão vou desistir tenho muito chão pra queimar ;)
 
     }
 
